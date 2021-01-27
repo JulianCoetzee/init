@@ -8,7 +8,4 @@ greetings ()
 
 echo "Input name"
 read input
-
-output=$(greetings)
-
-echo $output
+echo $(greetings)
